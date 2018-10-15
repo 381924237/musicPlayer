@@ -1,0 +1,20 @@
+[
+  {
+  "src": "music/爱的飞行日记.mp3",
+  "title": "爱的飞行日记",
+  "singer": "周杰伦",
+  "imageSrc": "img/one.jpg"
+  },
+  {
+  "src": "music/失忆蝴蝶.mp3",
+  "title": "失忆蝴蝶",
+  "singer": "陈奕迅",
+  "imageSrc": "img/two.jpg"
+  },
+  {
+  "src": "music/落花流水.mp3",
+  "title": "落花流水",
+  "singer": "陈奕迅",
+  "imageSrc": "img/three.jpg"  
+  }
+]

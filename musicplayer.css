@@ -1,0 +1,119 @@
+/*common css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+  cursor: pointer;
+}
+
+ul .active {
+  background-color: rgba(0,0,0,.5);
+}
+
+ul li:hover {
+  background-color: rgba(0,0,0,.5);
+}
+
+.buttons span,.bar:hover {
+  cursor: pointer;
+}
+
+.cover{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  display: block;
+  background: url(img/one.jpg) center center no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+}
+
+/*musicbox*/
+.musicbox {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+  width: 340px;
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,.6);
+}
+
+/*music-panel*/
+.music-panel {
+  color: white;
+  padding: 15px 20px;
+  background-color: rgba(0,0,0,.75);
+}
+
+/*buttons*/
+.buttons {
+  float: left;
+  padding-top: 10px;
+}
+.buttons span {
+  padding-left: 5px;
+}
+.music::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*info*/
+.info {
+  margin-left: 165px;
+}
+.title {
+  font-size: 18px;
+}
+.singer{
+  color: #ccc;
+  font-size: 15px;
+}
+
+/*progress*/
+.progress {
+  padding-left: 5px;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+.progress::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.progress-total {
+  border: 2px solid #000;
+}
+.bar {
+  position: relative;
+}
+.progress-now {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  position: absolute;
+  transform: translateY(-4px);
+}
+
+.time {
+  float: right;
+  font-size: 14px;
+}
+
+/*music-menu*/
+.music-menu {
+  background-color: rgba(0,0,0,.6);
+  color: #fff;
+}
+.music-menu li {
+  border-bottom: 1px solid;
+}
+.music-menu li {
+  padding: 5px 16px;
+}
+
