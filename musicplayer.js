@@ -26,7 +26,7 @@ function getMusicList(callback) {
 var musicList = []
 var currentIndex = 0
 var audio = new Audio()
-audio.autoplay = true
+audio.autoPlay = true
 
 //执行ajax封装函数,得到音乐信息
 getMusicList(function(list) {
